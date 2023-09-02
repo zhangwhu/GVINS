@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/media/zhuhang/F/gvins_ws/devel/include/**",
+                "/media/zhuhang/F/gvins_ws/src/gnss_comm-main/include/**",
+                "/media/zhuhang/D/mGNSS/include/**",
+                "/opt/ros/noetic/include/**",
+                "/media/zhuhang/F/catkin_ws/devel/include/**",
+                "/media/zhuhang/F/vins_mono_ws/src/VINS-Mono/camera_model/include/**",
+                "/media/zhuhang/F/catkin_ros/src/cv_bridge_1/include/**",
+                "/media/zhuhang/F/gvins_ws/src/gnss_comm-main/include/**",
+                "/media/zhuhang/F/catkin_ws/src/LIO-SAM/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

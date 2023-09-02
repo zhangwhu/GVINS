@@ -1,0 +1,34 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/build/${fileBasenameNoExtension}",
+            "args": [ "2258",
+                      "/media/zhuhang/D/Data/PPPRTK_INS_VISUAL_Wuh-230416/106_1/imu/INSD-G1.txt",
+                      "/media/zhuhang/D/Data/PPPRTK_INS_VISUAL_Wuh-230416/106_1/image_00",
+                      "/media/zhuhang/D/Data/PPPRTK_INS_VISUAL_Wuh-230416/106_1/image_01",
+                      "/media/zhuhang/D/Data/PPPRTK_INS_VISUAL_Wuh-230416/106_1/obs/PP7-G1.23o",
+                      "/media/zhuhang/E/106_1.bag"],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build",
+        }
+    ]
+}
