@@ -1,0 +1,7 @@
+<launch>
+    <node name="gnss_comm_node" pkg="gnss_comm" type="gnss_commm_ros" output="screen" launch-prefix="xterm -e gdb --args">
+        <param name="imu_topic" value="/imu0"/>
+        <param name="gnss_topic" value="/gnss0"/>
+        <param name="image_topic" value="/cam0"/>
+    </node>
+</launch>
