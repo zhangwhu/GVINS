@@ -1,0 +1,373 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "abseil-cpp/absl/debugging/libabsl_stacktrace.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"absl_cc_library",
+			"target_link_libraries",
+			"target_compile_options",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"thirdparty/abseil-cpp/CMake/AbseilHelpers.cmake",
+			"thirdparty/abseil-cpp/absl/debugging/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 223,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 225,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 247,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 13,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 37,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 242,
+				"parent" : 1
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 224,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wall -O3 -g -fPIC  "
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wcast-qual"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wconversion-null"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wmissing-declarations"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Woverlength-strings"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wunused-local-typedefs"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wunused-result"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wvarargs"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wwrite-strings"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-DNOMINMAX"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "ENACMP"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ENAGAL"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ENAGLO"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "TRACE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_DEBUG"
+				},
+				{
+					"define" : "absl_stacktrace_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/media/zhuhang/F/gvins_ws/src/ic_gvins"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/media/zhuhang/F/gvins_ws/src/ic_gvins/ic_gvins"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/usr/local/include/eigen3"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/media/zhuhang/F/gvins_ws/src/ic_gvins/thirdparty/abseil-cpp"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "absl_raw_logging_internal::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_log_severity::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_debugging_internal::@219259b7d0a2efed4773"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil"
+	},
+	"id" : "absl_stacktrace::@219259b7d0a2efed4773",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/media/zhuhang/F/gvins_ws/src/ic_gvins/build/abseil-cpp/absl/debugging:/media/zhuhang/F/gvins_ws/src/ic_gvins/build/abseil-cpp/absl/base",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libabsl_debugging_internal.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../base/libabsl_raw_logging_internal.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../base/libabsl_log_severity.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "absl_stacktrace",
+	"nameOnDisk" : "libabsl_stacktrace.so",
+	"paths" : 
+	{
+		"build" : "abseil-cpp/absl/debugging",
+		"source" : "thirdparty/abseil-cpp/absl/debugging"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				4
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/abseil-cpp/absl/debugging/stacktrace.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "thirdparty/abseil-cpp/absl/debugging/stacktrace.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"path" : "thirdparty/abseil-cpp/absl/debugging/internal/stacktrace_aarch64-inl.inc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 10,
+			"path" : "thirdparty/abseil-cpp/absl/debugging/internal/stacktrace_arm-inl.inc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 10,
+			"path" : "thirdparty/abseil-cpp/absl/debugging/internal/stacktrace_config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"path" : "thirdparty/abseil-cpp/absl/debugging/internal/stacktrace_emscripten-inl.inc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 10,
+			"path" : "thirdparty/abseil-cpp/absl/debugging/internal/stacktrace_generic-inl.inc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 10,
+			"path" : "thirdparty/abseil-cpp/absl/debugging/internal/stacktrace_powerpc-inl.inc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 10,
+			"path" : "thirdparty/abseil-cpp/absl/debugging/internal/stacktrace_riscv-inl.inc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 10,
+			"path" : "thirdparty/abseil-cpp/absl/debugging/internal/stacktrace_unimplemented-inl.inc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 10,
+			"path" : "thirdparty/abseil-cpp/absl/debugging/internal/stacktrace_win32-inl.inc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 10,
+			"path" : "thirdparty/abseil-cpp/absl/debugging/internal/stacktrace_x86-inl.inc",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

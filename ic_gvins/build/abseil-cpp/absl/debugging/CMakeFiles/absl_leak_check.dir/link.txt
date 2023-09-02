@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -Wall -O3 -g  -shared -Wl,-soname,libabsl_leak_check.so -o libabsl_leak_check.so CMakeFiles/absl_leak_check.dir/leak_check.cc.o 

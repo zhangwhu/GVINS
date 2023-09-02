@@ -1,0 +1,268 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "abseil-cpp/absl/flags/libabsl_flags_commandlineflag_internal.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"absl_cc_library",
+			"target_compile_options",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"thirdparty/abseil-cpp/CMake/AbseilHelpers.cmake",
+			"thirdparty/abseil-cpp/absl/flags/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 96,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 223,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 247,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 13,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 37,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 242,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 224,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wall -O3 -g -fPIC  "
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wcast-qual"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wconversion-null"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmissing-declarations"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Woverlength-strings"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunused-local-typedefs"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunused-result"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wvarargs"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wwrite-strings"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-DNOMINMAX"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "ENACMP"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ENAGAL"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ENAGLO"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "TRACE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_DEBUG"
+				},
+				{
+					"define" : "absl_flags_commandlineflag_internal_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/media/zhuhang/F/gvins_ws/src/ic_gvins"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/media/zhuhang/F/gvins_ws/src/ic_gvins/ic_gvins"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/usr/local/include/eigen3"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/media/zhuhang/F/gvins_ws/src/ic_gvins/thirdparty/abseil-cpp"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil/internal"
+	},
+	"id" : "absl_flags_commandlineflag_internal::@46d3d334a885d99aa2ab",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "absl_flags_commandlineflag_internal",
+	"nameOnDisk" : "libabsl_flags_commandlineflag_internal.so",
+	"paths" : 
+	{
+		"build" : "abseil-cpp/absl/flags",
+		"source" : "thirdparty/abseil-cpp/absl/flags"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/abseil-cpp/absl/flags/internal/commandlineflag.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"path" : "thirdparty/abseil-cpp/absl/flags/internal/commandlineflag.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

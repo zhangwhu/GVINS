@@ -1,0 +1,17 @@
+<launch>
+    <arg name="configfile" default="/media/zhuhang/D/Data/PPPRTK_INS_VISUAL_Wuh-230416/gvins-106.yaml"/>
+
+    <node name="ic_gvins_node" pkg="ic_gvins" type="ic_gvins_ros" output="screen">
+        <param name="imu_topic" value="/gvi/imu0"/>
+        <param name="gnss_topic" value="/gvi/gnss0"/>
+        <param name="image_topic" value="/gvi/image0"/>
+
+        <param name="configfile" value="$(arg configfile)"/>
+    </node>
+
+    <node name="world_to_map_broadcaster" pkg="tf2_ros" type="static_transform_publisher"  
+            args="0 0 0 -1 0 0 0 map world"/>
+    <node name="visualisation" pkg="rviz" type="rviz" output="log" 
+            args="-d /media/zhuhang/D/Data/PPPRTK_INS_VISUAL_Wuh-230416/visualization.rviz"/>
+
+</launch>
