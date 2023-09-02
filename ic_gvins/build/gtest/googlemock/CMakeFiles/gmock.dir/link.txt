@@ -1,1 +1,0 @@
-/usr/bin/g++ -fPIC  -Wall -O3 -g  -shared -Wl,-soname,libgmockd.so -o ../lib/libgmockd.so CMakeFiles/gmock.dir/src/gmock-all.cc.o  -Wl,-rpath,/media/zhuhang/F/gvins_ws/src/ic_gvins/build/gtest/lib ../lib/libgtestd.so -lpthread 

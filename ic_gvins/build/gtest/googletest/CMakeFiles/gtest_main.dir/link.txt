@@ -1,1 +1,0 @@
-/usr/bin/g++ -fPIC  -Wall -O3 -g  -shared -Wl,-soname,libgtest_maind.so -o ../lib/libgtest_maind.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/media/zhuhang/F/gvins_ws/src/ic_gvins/build/gtest/lib ../lib/libgtestd.so -lpthread 
